@@ -26,7 +26,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         ETH_url:
             "https://rest.coinapi.io/v1/exchangerate/ETH/USD?apikey=be7b3526-8e18-41ec-a3a7-33eba35296bc",
         LTC_url:
-            "https://rest.coinapi.io/v1/exchangerate/BTC/USD?apikey=be7b3526-8e18-41ec-a3a7-33eba35296bc");
+            "https://rest.coinapi.io/v1/exchangerate/LTC/USD?apikey=be7b3526-8e18-41ec-a3a7-33eba35296bc");
     var BTCdata = await mycurrency.getBTC_currency();
     var ETHdata = await mycurrency.getETH_currency();
     var LTCdata = await mycurrency.getLTC_currency();
